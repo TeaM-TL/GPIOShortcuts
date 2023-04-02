@@ -2,6 +2,15 @@
 A Raspberry Pi service to permanently map GPIO button presses to keyboard shortcuts.
 
 ## Installation
+
+0. Install required packages instead downnoald and compile
+
+```
+    sudo apt-get install python-pil
+    sudo apt-get install python-xlib
+    sudo apt-get install python-evdev
+```
+
 1. Clone repo and enter directory.
 
     `git clone https://github.com/benstobbs/GPIOShortcuts/`
@@ -10,7 +19,7 @@ A Raspberry Pi service to permanently map GPIO button presses to keyboard shortc
 
 2. Edit config file to configure your shortcuts. Buttons should be connected to GND on one side and directly to the GPIO pin on the other.
 
-    `nano config.txt`
+    `vim config.txt`
 
 3. Make installation script executable and install.
 

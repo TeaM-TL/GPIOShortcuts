@@ -11,22 +11,41 @@
 # 17, ctrl, =
 
 ### OpenCPN keybinds below. Remove for other applications.
-# Left click
-sequence, 15, leftclick
-# Right click
-sequence, 9, rightclick
-# Zoom in
-hotkey, 24, ctrl, =
-# Zoom out
-hotkey, 10, ctrl, -
-# Arrow keys
-sequence, 22, left
-sequence, 27, right
-sequence, 23, up
-sequence, 18, down
-# Night mode
-sequence, 11, f5
-# Auto-follow
-sequence, 25, f2
 # MOB
-hotkey, 17, ctrl, space
+hotkey, 21, ctrl, space
+# Mouse click
+sequence, 26, leftclick
+sequence, 20, rightclick
+# Zoom in out
+sequence, 19, pgup
+sequence, 16, pgdn
+# Auto-follow
+sequence, 13, f2
+# Night mode, dimmer
+sequence, 6, f5
+sequence, 12, f6
+# Arrow keys
+sequence, 9, left
+sequence, 25, right
+sequence, 11, up
+sequence, 8, down
+# Map more or less detail
+sequence, 7, f7
+sequence, 10, f8
+# keys
+sequence, 5, space
+sequence, 24, tab
+sequence, 22, win
+sequence, 23, return
+# Cables, pipes
+sequence, 27, a
+# Lights
+sequence, 17, l
+# Measure
+sequence, 18, f4
+# Depths
+sequence, 15, s
+# Free
+#sequence, 4, 
+#sequence, 14, 
+
