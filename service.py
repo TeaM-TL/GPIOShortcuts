@@ -72,5 +72,5 @@ while True:
                         press(k)
                     sleep(0.15)
 
-            sleep(0.5)
+            sleep(0.05)
     sleep(0.05)
