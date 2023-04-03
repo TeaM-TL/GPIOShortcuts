@@ -68,3 +68,9 @@ To update the configuration, just change the cloned `config.txt` and re-run `con
 'command', 'option', 'optionleft', 'optionright'] 
 ```
 List from `pyautogui` docs.
+
+## To Do
+
+- make deb package to easy install
+- verify delays after click or press
+
