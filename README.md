@@ -23,6 +23,7 @@ Works and tested on Raspbian GNU/Linux 10 (buster).
 2. Edit config file to configure your shortcuts. Buttons should be connected to GND on one side and directly to the GPIO pin on the other.
 
     Predefines shortcuts are prepared for OpenCPN on my [OpenPlotter](https://openmarine.net/openplotter).
+
     `vim config.txt`
 
 3. Make installation script executable and install.
