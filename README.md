@@ -1,9 +1,12 @@
 # GPIOShortcuts
+
 A Raspberry Pi service to permanently map GPIO button presses to keyboard shortcuts.
+
+Works and tested on Raspbian GNU/Linux 10 (buster).
 
 ## Installation
 
-0. Install required packages instead downnoald and compile
+0. Install required packages instead download and compile
 
 ```
     sudo apt-get install python-pil
@@ -13,12 +16,13 @@ A Raspberry Pi service to permanently map GPIO button presses to keyboard shortc
 
 1. Clone repo and enter directory.
 
-    `git clone https://github.com/benstobbs/GPIOShortcuts/`
+    `git clone https://github.com/TeaM-TL/GPIOShortcuts/`
 
     `cd GPIOShortcuts`
 
 2. Edit config file to configure your shortcuts. Buttons should be connected to GND on one side and directly to the GPIO pin on the other.
 
+    Predefines shortcuts are prepared for OpenCPN on my [OpenPlotter](https://openmarine.net/openplotter).
     `vim config.txt`
 
 3. Make installation script executable and install.
