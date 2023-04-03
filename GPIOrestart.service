@@ -1,0 +1,5 @@
+[Unit]
+Description=Restart GPIOshortcuts after reboot
+[Service]
+ExecStart=systemctl restart GPIOShortcuts.service
+

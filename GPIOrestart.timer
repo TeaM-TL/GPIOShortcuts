@@ -1,0 +1,7 @@
+[Unit]
+Description=Restart GPIOshortcuts after reboot, solve problem if crash
+[Timer]
+OnBootSec=30sec
+[Install]
+WantedBy=timers.target
+
